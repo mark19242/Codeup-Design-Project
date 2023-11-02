@@ -29,8 +29,8 @@
     border-bottom: 2px solid gray;
 }
 
-img {
-    border: 5px solid lightgray;
+.img-fluid {
+    border: 5px solid #E6E6E6;
 }
 
 
@@ -53,20 +53,46 @@ span {
 }
 
 p {
-    font-family: 'Anton', sans-serif;
-    font-size: x-large;
+    font-family: 'Abel', sans-serif;
+
     word-spacing: 1px;
 }
 
-h6 {
+h5 {
     font-family: 'Abel', sans-serif;
 }
 
+
+h6 {
+    font-family: 'Abel', sans-serif;
+    margin-bottom: 50px;
+
+}
+
+.hidden-pics-mobile {
+    min-width: 50%;
+    height: 50%;
+    margin-bottom: 40px;
+}
+
+.hidden-pics-head {
+    min-width: 40%;
+    height: 60px;
+    margin-bottom: 40px;
+
+}
+
+.hidden-pics-ipad {
+    min-width: 50%;
+    height: fit-content;
+    margin-top: 4px;
+    margin-bottom: 30px;
+}
+
 .hidden-pics {
-    position: relative;
-    min-width: 25%;
-    min-height: 50%;
-    /*float: left;*/
+
+    margin-bottom: 80px;
+
 
 }
 
@@ -74,3 +100,4 @@ h6 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
