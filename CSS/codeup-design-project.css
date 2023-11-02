@@ -41,6 +41,7 @@ img {
 h3 {
     font-family: 'Anton', sans-serif;
 
+
 }
 
 p {
@@ -51,3 +52,9 @@ h6 {
     font-family: 'Abel', sans-serif;
 }
 
+.hidden-pics {
+    max-width: 25%;
+    max-height: 50%;
+
+
+}
