@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
+body {
+    background-color: #f0f0f0;
+}
+
 .circle {
     width: 80px;
     height: 80px;
@@ -33,10 +37,58 @@
     border: 5px solid #E6E6E6;
 }
 
+.circleA {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    background: #E6563B;
+}
 
-/*.security {*/
-/*    height: 54%;*/
-/*}*/
+.circleB {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    background: #EB9D3A;
+}
+
+.circleC {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    background: #7CB06C;
+}
+
+.circleD {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    background: #00ABA9;
+}
+
+li.inline {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.security {
+    max-height: fit-content();
+}
 
 .body.hidden {
     display: flex;
@@ -60,14 +112,20 @@ p {
 
 h5 {
     font-family: 'Abel', sans-serif;
+    text-align: left;
 }
 
+.right-header {
+    margin-bottom: 80px;
+
+}
 
 h6 {
     font-family: 'Abel', sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 
 }
+
 
 .hidden-pics-mobile {
     min-width: 50%;
@@ -101,3 +159,10 @@ h6 {
     padding-bottom: 50px;
 }
 
+.left-title {
+    text-align: left;
+}
+
+.left-paragraph {
+    text-align: left;
+}
