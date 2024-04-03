@@ -5,26 +5,31 @@
 .body {
     background-color: #F0F0F0;
 }
+
 .row {
     min-height: 100px;
     width: 100%;
 }
+
 .row.top {
     padding-bottom: 40px;
 }
+
 .logo-image {
     width: 50px;
     height: 50px;
 }
- a.nav-brand {
-     font-family: 'Abel', sans-serif;
-     text-decoration: unset;
-     color: inherit;
-     text-transform: lowercase;
-     padding-left: 10px;
-     padding-right: 30px;
-     font-size: 20pt;
- }
+
+a.nav-brand {
+    font-family: 'Abel', sans-serif;
+    text-decoration: unset;
+    color: inherit;
+    text-transform: lowercase;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 20pt;
+}
+
 a.nav-link {
     font-family: 'Abel', sans-serif;
     text-transform: uppercase;
@@ -33,12 +38,15 @@ a.nav-link {
     font-size: 12pt;
     height: 39px;
 }
+
 .circles-left {
     padding-left: unset;
 }
+
 .circles-right {
     padding-right: unset;
 }
+
 .circle {
     width: 105px;
     height: 105px;
@@ -49,36 +57,45 @@ a.nav-link {
     color: #fff;
     text-transform: uppercase;
 }
+
 .circles {
     padding: 20px;
     border: unset;
 }
+
 .circle.design {
     background-color: #E6563B;
 }
+
 .circle.develop {
     background-color: #EB9D3A;
 }
+
 .circle.support {
     background-color: #7CB06C;
 }
+
 .circle.host {
     background-color: #00ABA9;
 }
+
 h1, h2 {
     text-align: center;
     font-family: 'Anton', sans-serif;
     padding: 15px;
     text-transform: uppercase;
 }
+
 .container.hero {
     border-bottom: 2px solid grey;
     padding-bottom: 20px;
 }
+
 .img-fluid {
     border: 5px solid #E6E6E6;
     min-height: 100%;
 }
+
 .project-circle {
     width: 18px;
     height: 18px;
@@ -88,40 +105,51 @@ h1, h2 {
     color: black;
     text-align: center;
 }
+
 .A {
     background: #E6563B;
 }
+
 .B {
     background: #EB9D3A;
 }
+
 .C {
     background: #7CB06C;
 }
+
 .D {
     background: #00ABA9;
 }
+
 .security {
     height: fit-content(100%);
 }
+
 span {
     font-family: 'Anton', sans-serif;
     padding: 3px;
 }
+
 p {
     font-family: 'Abel', sans-serif;
     word-spacing: 1px;
 }
+
 h3 {
     font-family: 'Anton', sans-serif;
 }
+
 h6 {
     font-family: 'Abel', sans-serif;
     margin: 40px;
 }
+
 .hidden-pics {
     margin-bottom: 20px;
     padding: unset;
 }
+
 .left-header {
     padding-left: unset;
 }
